@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">EduMath</string>
+    <string-array name="tamanio">
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </string-array>
+
+    <string-array name="idomas">
+        <item>Español</item>
+        <item>Inglés</item>
+        <item>Francés</item>
+    </string-array>
 </resources>
