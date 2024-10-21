@@ -1,5 +1,6 @@
 package com.example.edumath;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         mediaPlayer = MediaPlayer.create(this, R.raw.musica_menu);
         mediaPlayer.setLooping(true);
         mediaPlayer.start();
+
         // Configura el botón para silenciar
         Button btnSilencio = findViewById(R.id.btn_silencio);
         btnSilencio.setOnClickListener(new View.OnClickListener() {
@@ -35,6 +37,29 @@ public class MainActivity extends AppCompatActivity {
                 isMuted = !isMuted; // Alterna el estado de silencio
             }
         });
+
+        // Configura los botones del menú
+        Button btnCreditos = findViewById(R.id.btn_creditos);
+        btnCreditos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CreditosActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnConfiguraciones = findViewById(R.id.btn_configuraciones);
+        btnConfiguraciones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ConfiguracionesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+        // Puedes configurar más botones aquí (btn_matematicas, btn_geometria, etc.)
     }
 
     @Override
