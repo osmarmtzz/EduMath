@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instrucciones del Juego de Geometría"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:paddingBottom="24dp"
+            android:gravity="center" />
+
+        <!--Instrucciones-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Leer las lecciones para aprender sobre geometría."
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Realizar los ejercicios que vienen despues de cada lección para reforzar los aprendizajes adquiridos de las lecciones."
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Completar las actividades para evaluar el aprendizaje."
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Revisar la puntuación obtenida al completar las actividades."
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="24dp"
+            android:gravity="center" />
+
+        <!-- Botones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="16dp">
+
+            <!--menú principal-->
+            <Button
+                android:id="@+id/buttonMenuGeometry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menú Principal"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/primary_color"
+                android:textColor="@android:color/white" />
+
+            <!--actividad de geometría-->
+            <Button
+                android:id="@+id/buttonContinueGeometry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir al Juego"
+                android:backgroundTint="@color/primary_color"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
