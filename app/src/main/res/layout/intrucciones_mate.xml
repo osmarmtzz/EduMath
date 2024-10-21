@@ -1,7 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instrucciones del Juego de Matemáticas"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:paddingBottom="24dp"
+            android:gravity="center" />
+
+        <!--Instrucciones de Matemáticas-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Leer las lecciones para aprender el Matematicas."
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Realizar los ejercicios que vienen despues de cada lección para reforzar los aprendizajes adquiridos de las lecciones."
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Completar las actividades para evaluar el aprendizaje."
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Revisar la puntuación obtenida al completar las actividades."
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:paddingBottom="24dp"
+            android:gravity="center" />
+
+        <!--Botones-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="16dp">
+
+            <Button
+                android:id="@+id/buttonMenuMath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menú Principal"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/primary_color"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/buttonContinueMath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir al Juego"
+                android:backgroundTint="@color/primary_color"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
