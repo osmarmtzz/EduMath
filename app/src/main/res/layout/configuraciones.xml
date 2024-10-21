@@ -1,7 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/fondo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configuraciones"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="24dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!--música-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volumen de Música"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@+id/SBMusica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100" />
+
+        <!--sonidos-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volumen de Sonidos"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@+id/SBSonidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100" />
+
+        <!--Modo Nocturno-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modo Nocturno"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white" />
+
+        <Switch
+            android:id="@+id/SWModo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activar Modo Nocturno"
+            android:textColor="@android:color/white" />
+
+        <!--Orientación-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orientación de la Pantalla"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white" />
+
+        <Switch
+            android:id="@+id/SWOrientacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Permitir Rotación"
+            android:textColor="@android:color/white" />
+
+        <!--Tamaño de Letra-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tamaño de la Letra"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white" />
+
+        <Spinner
+            android:id="@+id/SPTam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/tamanio" />
+
+        <!--Idioma-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idioma"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white" />
+
+        <Spinner
+            android:id="@+id/SPIdioma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/idioma" />
+
+        <!--Botón-->
+        <Button
+            android:id="@+id/BtnAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver al menú Principal"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/primary_color"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>
