@@ -18,6 +18,7 @@
             android:layout_gravity="center_horizontal"
             android:paddingBottom="24dp"
             android:textStyle="bold"
+            android:fontFamily="@font/pressstart2p_regular"
             android:textColor="@android:color/white" />
 
         <!--música-->
