@@ -57,9 +57,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn_matematicas = findViewById(R.id.btn_matematicas);
+        btn_matematicas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, InstruccionesMateActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_salir = findViewById(R.id.btn_salir);
+        btn_salir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finishAffinity();
+            }
+        });
 
 
-        // Puedes configurar más botones aquí (btn_matematicas, btn_geometria, etc.)
+
+
     }
 
     @Override

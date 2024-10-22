@@ -14,7 +14,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Instrucciones Geometría"
+            android:layout_marginTop="50dp"
+            android:text="INSTRUCCIONES"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:paddingBottom="24dp"
+            android:fontFamily="@font/pressstart2p_regular"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GEOMETRIA"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@android:color/white"
@@ -22,19 +33,23 @@
             android:fontFamily="@font/pressstart2p_regular"
             android:gravity="center" />
 
-        <!--Instrucciones-->
+        <!--Instrucciones de Matemáticas-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Leer las lecciones para aprender sobre geometría."
+            android:text="1. Lee las lecciones para aprender los conceptos y fundamentos necesarios."
             android:textSize="16sp"
             android:textColor="@android:color/white"
             android:paddingBottom="8dp"
+            android:fontFamily="@font/nunito_regular"
+            android:textStyle="bold"
             android:gravity="center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:textStyle="bold"
             android:text="2. Realizar los ejercicios que vienen despues de cada lección para reforzar los aprendizajes adquiridos de las lecciones."
             android:textSize="16sp"
             android:textColor="@android:color/white"
@@ -44,8 +59,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="3. Completar las actividades para evaluar el aprendizaje."
+            android:text="3. Completa las actividades para evaluar tu aprendizaje."
             android:textSize="16sp"
+            android:fontFamily="@font/nunito_regular"
+            android:textStyle="bold"
             android:textColor="@android:color/white"
             android:paddingBottom="8dp"
             android:gravity="center" />
@@ -55,11 +72,13 @@
             android:layout_height="wrap_content"
             android:text="4. Revisar la puntuación obtenida al completar las actividades."
             android:textSize="16sp"
+            android:fontFamily="@font/nunito_regular"
+            android:textStyle="bold"
             android:textColor="@android:color/white"
             android:paddingBottom="24dp"
             android:gravity="center" />
 
-        <!-- Botones -->
+        <!--Botones-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -67,21 +86,23 @@
             android:gravity="center"
             android:paddingTop="16dp">
 
-            <!--menú principal-->
             <Button
-                android:id="@+id/buttonMenuGeometry"
+                android:id="@+id/buttonMenuMath"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Menú Principal"
                 android:layout_marginEnd="16dp"
                 android:backgroundTint="@color/primary_color"
+                android:fontFamily="@font/nunito_regular"
+                android:textStyle="bold"
                 android:textColor="@android:color/white" />
 
-            <!--actividad de geometría-->
             <Button
-                android:id="@+id/buttonContinueGeometry"
+                android:id="@+id/buttonContinueMath"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_regular"
+                android:textStyle="bold"
                 android:text="Ir al Juego"
                 android:backgroundTint="@color/primary_color"
                 android:textColor="@android:color/white" />

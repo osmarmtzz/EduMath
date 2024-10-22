@@ -14,11 +14,23 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Instrucciones del Juego de Matemáticas"
+            android:layout_marginTop="50dp"
+            android:text="INSTRUCCIONES"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@android:color/white"
             android:paddingBottom="24dp"
+            android:fontFamily="@font/pressstart2p_regular"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATEMATICAS"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:paddingBottom="24dp"
+            android:fontFamily="@font/pressstart2p_regular"
             android:gravity="center" />
 
         <!--Instrucciones de Matemáticas-->
@@ -29,11 +41,15 @@
             android:textSize="16sp"
             android:textColor="@android:color/white"
             android:paddingBottom="8dp"
+            android:fontFamily="@font/nunito_regular"
+            android:textStyle="bold"
             android:gravity="center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:textStyle="bold"
             android:text="2. Realizar los ejercicios que vienen despues de cada lección para reforzar los aprendizajes adquiridos de las lecciones."
             android:textSize="16sp"
             android:textColor="@android:color/white"
@@ -45,6 +61,8 @@
             android:layout_height="wrap_content"
             android:text="3. Completa las actividades para evaluar tu aprendizaje."
             android:textSize="16sp"
+            android:fontFamily="@font/nunito_regular"
+            android:textStyle="bold"
             android:textColor="@android:color/white"
             android:paddingBottom="8dp"
             android:gravity="center" />
@@ -54,6 +72,8 @@
             android:layout_height="wrap_content"
             android:text="4. Revisar la puntuación obtenida al completar las actividades."
             android:textSize="16sp"
+            android:fontFamily="@font/nunito_regular"
+            android:textStyle="bold"
             android:textColor="@android:color/white"
             android:paddingBottom="24dp"
             android:gravity="center" />
@@ -73,12 +93,16 @@
                 android:text="Menú Principal"
                 android:layout_marginEnd="16dp"
                 android:backgroundTint="@color/primary_color"
+                android:fontFamily="@font/nunito_regular"
+                android:textStyle="bold"
                 android:textColor="@android:color/white" />
 
             <Button
                 android:id="@+id/buttonContinueMath"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_regular"
+                android:textStyle="bold"
                 android:text="Ir al Juego"
                 android:backgroundTint="@color/primary_color"
                 android:textColor="@android:color/white" />

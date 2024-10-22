@@ -7,18 +7,18 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class CreditosActivity extends AppCompatActivity {
+public class InstruccionesMateActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.creditos);
+        setContentView(R.layout.intrucciones_mate);
 
-        Button btnAtras = findViewById(R.id.BtnAtras);
+        Button btnAtras = findViewById(R.id.buttonMenuMath);
 
         btnAtras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CreditosActivity.this, MainActivity.class);
+                Intent intent = new Intent(InstruccionesMateActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
