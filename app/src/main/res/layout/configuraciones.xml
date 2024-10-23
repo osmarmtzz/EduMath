@@ -17,6 +17,7 @@
             android:textSize="24sp"
             android:layout_gravity="center_horizontal"
             android:paddingBottom="24dp"
+            android:layout_marginTop="100dp"
             android:textStyle="bold"
             android:fontFamily="@font/pressstart2p_regular"
             android:textColor="@android:color/white" />

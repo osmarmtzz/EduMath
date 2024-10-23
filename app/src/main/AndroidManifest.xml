@@ -24,6 +24,8 @@
         <activity android:name=".CreditosActivity" />
         <activity android:name=".ConfiguracionesActivity" />
         <activity android:name=".InstruccionesMateActivity" />
+        <activity android:name=".InstruccionesGeoActivity" />
+
 
 
     </application>

@@ -66,6 +66,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn_geometria = findViewById(R.id.btn_geometria);
+        btn_geometria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, InstruccionesGeoActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Button btn_salir = findViewById(R.id.btn_salir);
         btn_salir.setOnClickListener(new View.OnClickListener() {
             @Override
