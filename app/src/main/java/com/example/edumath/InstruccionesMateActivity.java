@@ -23,5 +23,13 @@ public class InstruccionesMateActivity extends AppCompatActivity {
                 finish();
             }
         });
+        Button buttonContinueMath = findViewById(R.id.buttonContinueMath);
+        buttonContinueMath.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(InstruccionesMateActivity.this, IntroduccionMateActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

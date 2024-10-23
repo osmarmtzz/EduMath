@@ -25,6 +25,8 @@
         <activity android:name=".ConfiguracionesActivity" />
         <activity android:name=".InstruccionesMateActivity" />
         <activity android:name=".InstruccionesGeoActivity" />
+        <activity android:name=".IntroduccionMateActivity" />
+
 
 
 
