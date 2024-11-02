@@ -1,108 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/fondo">
+    android:layout_height="match_parent">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:id="@+id/main"
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:padding="10dp">
+        android:src="@drawable/fondo"
+        android:scaleType="centerCrop" />
 
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/logo" />
-
-        <TextView
-            android:id="@+id/titulo"
-            android:layout_width="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/main"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:fontFamily="@font/nunito_regular"
             android:gravity="center"
-            android:letterSpacing="0.15"
-            android:lineSpacingExtra="4dp"
-            android:shadowColor="#000000"
-            android:shadowDx="10"
-            android:shadowDy="10"
-            android:shadowRadius="6"
-            android:text="¡Bienvenido a EduMath! Por favor, elige una opción."
-            android:textColor="#FFEB3B"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:padding="10dp">
 
-        <android.widget.Button
-            android:id="@+id/btn_matematicas"
-            android:layout_width="250dp"
-            android:fontFamily="@font/pressstart2p_regular"
-        android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:background="@drawable/boton_menu"
-            android:elevation="8dp"
-            android:text="Matematicas"
-            android:textColor="#FFFFFF"
-            android:textSize="15sp" />
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/logo" />
 
-        <android.widget.Button
-            android:id="@+id/btn_geometria"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:text="Geometria"
-            android:textSize="15sp"
-            android:fontFamily="@font/pressstart2p_regular"
-            android:background="@drawable/boton_menu"
-            android:textColor="#FFFFFF"
-            android:layout_marginBottom="30dp"
-            android:elevation="8dp" />
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/nunito_regular"
+                android:gravity="center"
+                android:letterSpacing="0.15"
+                android:lineSpacingExtra="4dp"
+                android:shadowColor="#000000"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="6"
+                android:text="¡Bienvenido a EduMath! Por favor, elige una opción."
+                android:textColor="#FFEB3B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-        <android.widget.Button
-            android:id="@+id/btn_creditos"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/pressstart2p_regular"
+            <android.widget.Button
+                android:id="@+id/btn_matematicas"
+                android:layout_width="250dp"
+                android:fontFamily="@font/pressstart2p_regular"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/boton_menu"
+                android:elevation="8dp"
+                android:text="Matematicas"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
 
-            android:text="Creditos"
-            android:textSize="15sp"
-            android:background="@drawable/boton_menu"
-            android:textColor="#FFFFFF"
-            android:layout_marginBottom="30dp"
-            android:elevation="8dp" />
+            <android.widget.Button
+                android:id="@+id/btn_geometria"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Geometria"
+                android:textSize="15sp"
+                android:fontFamily="@font/pressstart2p_regular"
+                android:background="@drawable/boton_menu"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="30dp"
+                android:elevation="8dp" />
 
-        <android.widget.Button
-            android:id="@+id/btn_configuraciones"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:text="Configuraciones"
-            android:fontFamily="@font/pressstart2p_regular"
-            android:textSize="15sp"
-            android:background="@drawable/boton_menu"
-            android:textColor="#FFFFFF"
-            android:layout_marginBottom="30dp"
-            android:elevation="8dp" />
+            <android.widget.Button
+                android:id="@+id/btn_creditos"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pressstart2p_regular"
+                android:text="Creditos"
+                android:textSize="15sp"
+                android:background="@drawable/boton_menu"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="30dp"
+                android:elevation="8dp" />
 
-        <android.widget.Button
-            android:id="@+id/btn_salir"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:text="Salir"
-            android:textSize="15sp"
-            android:background="@drawable/boton_menu"
-            android:textColor="#FFFFFF"
-            android:fontFamily="@font/pressstart2p_regular"
-            android:elevation="8dp" />
-    </LinearLayout>
+            <android.widget.Button
+                android:id="@+id/btn_configuraciones"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Configuraciones"
+                android:fontFamily="@font/pressstart2p_regular"
+                android:textSize="15sp"
+                android:background="@drawable/boton_menu"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="30dp"
+                android:elevation="8dp" />
 
-    <android.widget.Button
+            <android.widget.Button
+                android:id="@+id/btn_salir"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Salir"
+                android:textSize="15sp"
+                android:background="@drawable/boton_menu"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/pressstart2p_regular"
+                android:elevation="8dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
         android:id="@+id/btn_silencio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|end"
-        android:text="🔇"
+        android:text="🔊"
         android:textSize="24sp"
         android:background="@android:color/transparent"
         android:textColor="#FFFFFF"
