@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/fondo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC000000"
+        android:padding="16dp"
+        android:gravity="center">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aprendamos a Sumar"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <!-- Explicación de sumar -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumar es juntar 2 o más cosas para saber cuántas hay en total."
+        android:textSize="18sp"
+        android:textColor="#B3FFFFFF"
+        android:paddingBottom="16dp"/>
+
+    <!-- Primer ejemplo de suma -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por ejemplo: Ponemos 2 bolas verdes en una caja y 3 bolas moradas, y queremos saber cuántas bolas tenemos en total. 2 + 3 = 5"
+        android:textSize="16sp"
+        android:textColor="#B3FFFFFF"
+        android:paddingBottom="8dp"/>
+
+    <!-- Imagen para el primer ejemplo -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/suma1"
+        android:contentDescription="Imagen de 2 bolas verdes y 3 bolas moradas en una caja"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Segundo ejemplo de suma -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otro ejemplo: Pedro tiene 3 balones y María tiene 6. Si juntamos a Pedro y a María, ¿cuántos balones tienen en total? 3 + 6 = 9"
+        android:textSize="16sp"
+        android:textColor="#B3FFFFFF"
+        android:paddingBottom="8dp"/>
+
+    <!-- Imagen para el segundo ejemplo -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/suma2"
+        android:contentDescription="Imagen de 3 balones de Pedro y 6 balones de María"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Ejemplo de sumar con los dedos -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahora vamos a aprender a sumar con los dedos: En una mano ponemos 2 dedos y en la otra 3 dedos. Y ahora sumamos todos los dedos que tenemos: 2 dedos + 3 dedos, es igual a 5 dedos."
+        android:textSize="16sp"
+        android:textColor="#B3FFFFFF"
+        android:paddingBottom="8dp"/>
+
+    <!-- Imagen para el ejemplo de los dedos -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/suma3"
+        android:contentDescription="Imagen de 2 dedos en una mano y 3 dedos en la otra"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para Volver al Menú Principal -->
+    <Button
+        android:id="@+id/btnVolverMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú Principal"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp"
+        android:cornerRadius="16dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -20,16 +20,16 @@ public class InstruccionesMateActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(InstruccionesMateActivity.this, MainActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
         Button buttonContinueMath = findViewById(R.id.buttonContinueMath);
         buttonContinueMath.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(InstruccionesMateActivity.this, IntroduccionMateActivity.class);
+                Intent intent = new Intent(InstruccionesMateActivity.this, MenuOperacionesActivity.class);
                 startActivity(intent);
             }
         });
+
     }
 }

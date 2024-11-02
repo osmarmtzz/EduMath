@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC000000"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aprendamos a Multiplicar"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <!-- Introducción -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Las multiplicaciones son operaciones matemáticas para calcular el resultado de sumar un número tantas veces como lo indique otro número."
+            android:textSize="18sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Ejemplo de introducción a la multiplicación -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por ejemplo:\n52 × 4 = 208\n52 + 52 + 52 + 52 = 208"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Como ves, hemos sumado el número 52 cuatro veces, lo que equivale a multiplicarlo por 4. Multiplicar es una forma más rápida de sumar el mismo número muchas veces."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Explicación sobre la palabra 'multiplicación' -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La palabra 'multiplicación' viene del latín multiplicatio, que significa 'aumentar el número de la misma cosa'."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Ejemplo práctico de golosinas -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejemplo práctico:"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seis amigos quieren saber cuántas golosinas tienen en total si juntan todas. Cada uno tiene 5 golosinas. Entonces:\n\n5 × 6 = 30 golosinas"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Términos de la multiplicación -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Términos de la Multiplicación"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Los números que participan en una multiplicación se llaman factores (multiplicando y multiplicador), y el resultado se llama producto."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Factores y Producto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Factores: Son los números que se multiplican. Normalmente el número mayor se coloca arriba (multiplicando) y el menor abajo (multiplicador).\n• Producto: Es el resultado de la multiplicación."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Explicación de Factores -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Factores"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Son los números que se multiplican. Normalmente, el número mayor es el multiplicando y el menor es el multiplicador."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/multi1"
+            android:contentDescription="Imagen de ejemplo de multiplicación"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+
+        <!-- Explicación de Producto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Producto"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Es el resultado de la multiplicación."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Pasos para hacer una multiplicación -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pasos para Hacer una Multiplicación"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/multi2"
+            android:contentDescription="Imagen de ejemplo de multiplicación"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Multiplica el multiplicador por cada cifra del multiplicando, de derecha a izquierda.\n2. Escribe las unidades del producto en su lugar, guardando las decenas.\n3. Continúa hasta terminar todas las cifras del multiplicando."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Ejemplo práctico detallado -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejemplo: Multiplicamos 561 × 3\n1. 1 × 3 = 3\n2. 6 × 3 = 18 (guardamos 1 y escribimos 8)\n3. 5 × 3 = 15 + 1 = 16\n\nResultado: 561 × 3 = 1.683"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/multi3"
+            android:contentDescription="Imagen de ejemplo de multiplicación"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+
+        <!-- Botón para Volver al Menú Principal -->
+        <Button
+            android:id="@+id/btnVolverMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver al Menú Principal"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="4dp"
+            android:cornerRadius="16dp"/>
+    </LinearLayout>
+</ScrollView>

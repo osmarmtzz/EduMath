@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC000000"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La División"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <!-- Introducción a la división -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dividir es una distribución equitativa, es decir, repartir entre partes o grupos iguales."
+            android:textSize="18sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Ejemplo de división -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por ejemplo: Queremos repartir estas 12 bolas entre 3 cajitas a partes iguales, por lo que tiene que haber el mismo número de bolas en cada una de las cajas."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Imagen de bolas -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/div1"
+            android:contentDescription="Imagen de bolas"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vamos repartiendo las bolas en cada caja, hasta que finalmente en cada caja hay 4 bolas."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Imagen de resto -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/div2"
+            android:contentDescription="Imagen de resto"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por lo que la división que hemos hecho es: 12 bolas : 3 cajas = 4 bolas en cada caja."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- División como operación inversa -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La división es una operación inversa a la multiplicación y puede considerarse como una resta repetida."
+            android:textSize="18sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Ejemplo de resta repetida -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por ejemplo si queremos dividir 12 entre 3:\n\n12 – 3 = 9\n9 – 3 = 6\n6 – 3 = 3\n3 – 3 = 0"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hemos podido restar al 12, 4 veces el número 3, por lo tanto 12:3=4"
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Divisiones con resto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Divisiones con resto o divisiones inexactas"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El resto es la cantidad que sobra a dividir un número entre otro. Por ejemplo: si queremos dividir 5 bolas entre 2 cajitas, repartimos 2 bolas en cada cajita y nos sobra 1, por lo que 5 : 2 = 2 y el resto es 1."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Imagen de resto -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/div3"
+            android:contentDescription="Imagen de resto"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- ¿Qué es la división? -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Qué es la división?"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <!-- Imagen de resto -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/div4"
+            android:contentDescription="Imagen de resto"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dividendo: es el número que vamos a dividir\nDivisor: es el número entre el que vamos a dividir\nCociente: es el resultado\nResto: es lo que nos sobra"
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Ejemplo de división -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejemplo: Queremos hacer esta división: 83 : 9 =\n\nPor lo que hay que buscar en la tabla del 9, un número que sea 83 o que se aproxime a 83 pero sin pasarse."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por lo que vemos en la tabla del 9, 9 x 9 = 81, por lo que 9 sería el cociente y el resto sería lo que falta del 81 al 83, es decir, 2."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Imagen de resto -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/div5"
+            android:contentDescription="Imagen de resto"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Solución -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solución: 83 : 9 = 9 y el resto = 2"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Botón para volver al menú principal -->
+        <Button
+            android:id="@+id/btnVolverMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver al Menú Principal"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="4dp"
+            android:cornerRadius="16dp"/>
+    </LinearLayout>
+</ScrollView>

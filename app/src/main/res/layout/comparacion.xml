@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC000000"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cómo Comparar Números Naturales"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <!-- Introducción -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Para comparar números naturales debemos fijarnos en sus cifras y el orden al que llega cada número, sean decenas, centenas, miles o millones."
+            android:textSize="18sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Pasos para comparar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pasos para Comparar Números Naturales:"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Fíjate en el orden al que llegan las cifras de los números. El que llegue al orden superior será el mayor."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por ejemplo:\n¿Quién es el número mayor entre 1.562 y 759?"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Imagen de ejemplo (placeholder) -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/comp1"
+            android:contentDescription="Comparación de 1.562 y 759"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En este caso, 1.562 es mayor que 759 porque 1.562 llega a las unidades de mil, mientras que 759 llega al orden de las centenas, y los miles son mayores que las centenas."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Comparación cuando llegan al mismo orden -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Si ambos números llegan al mismo orden, compara cada cifra para determinar cuál es el mayor. Al llegar a la cifra que tengan distinta, el mayor será el que tenga la cifra de mayor valor."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por ejemplo:\n¿Será cierto que 2.146 es mayor que 3.423?"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Imagen de ejemplo (placeholder) -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/comp2"
+            android:contentDescription="Comparación de 2.146 y 3.423"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Al observar estos números, vemos que ambos llegan a la unidad de mil. Sin embargo, como 2 es menor que 3, decimos que 2.146 es menor que 3.423. Por tanto, no es cierto que 2.146 es mayor que 3.423."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Otro ejemplo de comparación -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Observa este otro ejemplo:\n¿Es 5.985 mayor o menor que 5.972?"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/comp3"
+            android:contentDescription="Comparación"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Como puedes ver, ambos números llegan a la unidad de mil. Y la cifra que ocupa ese orden es igual a 5 en los dos números."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Debemos fijarnos entonces en las centenas de los dos números. Al observar, notamos que ambos números tienen la cifra 9 en el orden de las centenas."
+            android:textSize="16sp"
+            android:textColor="#B3FFFFFF"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pasamos entonces al orden de las decenas. Y, como puedes darte cuenta, 8 > 7.\nPor lo tanto, 5.985 es mayor que 5.972."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="16dp"/>
+
+        <!-- Botón para volver al menú principal -->
+        <Button
+            android:id="@+id/btnVolverMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver al Menú Principal"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="4dp"
+            android:cornerRadius="16dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/fondo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC000000"
+        android:padding="16dp"
+        android:gravity="center">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aprendamos a Restar"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <!-- Introducción -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoy vamos a aprender a restar con llevada y recordar cómo se colocan los elementos de una resta."
+        android:textSize="18sp"
+        android:textColor="#B3FFFFFF"
+        android:paddingBottom="16dp"/>
+
+    <!-- Índice -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Índice"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Cómo se colocan los elementos de una resta\n- Cómo se hace una resta con llevada con un ejemplo"
+        android:textSize="16sp"
+        android:textColor="#B3FFFFFF"
+        android:paddingBottom="16dp"/>
+
+    <!-- Cómo se colocan los elementos de una resta -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cómo se colocan los elementos de una resta"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Coloca el sustraendo debajo del minuendo de manera que coincidan las unidades en la misma columna.\n2. Resta cada columna por separado empezando por las unidades.\n3. Escribe el resultado de la resta debajo de cada columna."
+        android:textSize="16sp"
+        android:textColor="#B3FFFFFF"
+        android:paddingBottom="16dp"/>
+
+    <!-- Cómo se hace una resta con llevada con un ejemplo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cómo se hace una resta con llevada con un ejemplo"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuando la cifra del minuendo es menor que la cifra del sustraendo, tiene que pedir ayuda a la cifra del minuendo de la siguiente columna."
+        android:textSize="16sp"
+        android:textColor="#B3FFFFFF"
+        android:paddingBottom="16dp"/>
+
+    <!-- Ejemplo de resta con llevada -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por ejemplo:\nVamos a restar 32 - 17"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Coloca el 17 debajo del 32 de manera que coincidan las unidades en la misma columna, es decir, el 7 y el 2.\n2. Empieza restando la columna de las unidades: 2 - 7, pero como 2 es menor que 7 tienes que pedir ayuda a la siguiente columna. Esta columna se quita una decena (3 - 1) para dar 10 unidades (2 + 10)."
+        android:textSize="16sp"
+        android:textColor="#B3FFFFFF"
+        android:paddingBottom="8dp"/>
+
+    <!-- Imagen para el ejemplo de resta con llevada -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/resta1"
+        android:contentDescription="Imagen de ejemplo de resta con llevada"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Resto del ejemplo de resta con llevada -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahora ya puedes restar: 12 - 7 = 5\nResta la columna de las decenas: 2 - 1 = 1\n\nPor lo tanto, el resultado de nuestra resta con llevada es 32 - 17 = 15"
+        android:textSize="16sp"
+        android:textColor="#B3FFFFFF"
+        android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/resta2"
+            android:contentDescription="Imagen de ejemplo de resta con llevada"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para Volver al Menú Principal -->
+    <Button
+        android:id="@+id/btnVolverMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú Principal"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp"
+        android:cornerRadius="16dp"/>
+</LinearLayout>
+</ScrollView>
