@@ -209,6 +209,6 @@
             android:layout_marginTop="16dp"
             android:layout_gravity="center_horizontal"
             android:elevation="4dp"
-            android:cornerRadius="16dp"/>
+            android:background="@drawable/rounded_corners"/>
     </LinearLayout>
 </ScrollView>

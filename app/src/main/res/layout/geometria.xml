@@ -1,661 +1,650 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
     android:padding="16dp">
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#CC000000"
-        android:padding="16dp"
-        android:gravity="center">
-
-        <!-- Título -->
-        <TextView
-            android:layout_width="wrap_content"
+    <!--
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Figuras Geométricas"
-            android:textSize="24sp"
-            android:textColor="#FFFFFF"
-            android:fontFamily="sans-serif-medium"
-            android:gravity="center"
-            android:layout_gravity="center_horizontal"
-            android:paddingBottom="16dp"/>
+            android:background="#CC000000"
+            android:padding="16dp"
+            android:gravity="center">
 
-        <!-- Introducción -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Los antiguos griegos definieron las líneas rectas y las líneas curvas fijándose en su entorno. ¿Creéis que se quedaron ahí? ¡No! Porque las líneas rectas son la base para encontrar unas figuras que vemos a menudo en el mundo real: las figuras geométricas."
-            android:textSize="18sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Figuras Geométricas"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="16dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Las figuras geométricas hacen referencia a superficies planas delimitadas por líneas que pueden ser curvas o rectas. Para que lo entiendas mejor, vamos a explicarlo con algún ejemplo."
-            android:textSize="18sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los antiguos griegos definieron las líneas rectas y las líneas curvas fijándose en su entorno. ¿Creéis que se quedaron ahí? ¡No! Porque las líneas rectas son la base para encontrar unas figuras que vemos a menudo en el mundo real: las figuras geométricas."
+                android:textSize="18sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
 
-        <!-- Dos líneas rectas -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empezaremos por lo más sencillo: dos líneas rectas."
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Las figuras geométricas hacen referencia a superficies planas delimitadas por líneas que pueden ser curvas o rectas. Para que lo entiendas mejor, vamos a explicarlo con algún ejemplo."
+                android:textSize="18sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/geo1"
-            android:contentDescription="Dos líneas rectas"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empezaremos por lo más sencillo: dos líneas rectas."
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/geo1"
+                android:contentDescription="Dos líneas rectas"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Se puede hacer una figura con dos líneas rectas?"
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/geo2"
+                android:contentDescription="Dos líneas rectas"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡Claro que se puede! Lo que pasa es que a esta figura no la llamamos figura geométrica. Para serlo, tiene que estar cerrada. En la que hemos hecho, ¡sí que se puede escapar!"
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/geo3"
+                android:contentDescription="Figura abierta"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Si intentas mover las dos rectas, verás que de ninguna manera se puede cerrar."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Figuras geométricas de 3 lados: triángulos"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vamos a probar ahora con tres líneas rectas."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/geo4"
+                android:contentDescription="Triángulo"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡Eso es! Ahora sí que se puede obtener una figura de la que no se pueda escapar la pelota."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_triangulo_2"
+                android:contentDescription="Triángulo"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A cada una de las líneas rectas que hemos utilizado y que ahora forma parte de la figura, la llamamos lado de la figura. Así que esta figura tiene tres lados y la llamamos triángulo. Cuando decimos “triángulo”, podemos referirnos o bien a la forma que hacen las tres rectas, o bien al espacio que encierran."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_triangulos_reales"
+                android:contentDescription="Triángulos en el entorno"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Te imaginas dónde podemos encontrar triángulos a nuestro alrededor? Yo he encontrado algunos en Smartick, ¡a ver si los reconoces!"
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clasificación de los triángulos"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hay diferentes maneras de clasificar a los triángulos, según sus lados o sus ángulos."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Según sus ángulos:"
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Rectángulo: tiene un ángulo recto, es decir, mide 90º."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Acutángulo: tiene 3 ángulos agudos, es decir, miden menos de 90º."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Obtusángulo: tiene un ángulo obtuso, es decir, mide más de 90º."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Según sus lados:"
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Equilátero: los 3 lados miden lo mismo."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Isósceles: tiene 2 lados que miden igual y otro desigual."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Escaleno: todos los lados tienen diferente longitud."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Figuras geométricas de 4 lados: cuadriláteros"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Probemos ahora con cuatro líneas rectas."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_cuadrilatero"
+                android:contentDescription="Cuadriláteros"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A estas figuras las llamamos cuadriláteros. Hay unos cuadriláteros muy especiales que tienen los lados paralelos dos a dos."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Además, los lados que son paralelos también son iguales. ¿Cómo podríamos hacer esto? Cogemos dos lados iguales y los ponemos paralelos."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_cuadrilatero_paralelo"
+                android:contentDescription="Cuadrilátero paralelo"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuando las líneas son paralelas y regulares tenemos tres posibilidades."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Rombo: Si los cuatro lados son iguales obtenemos un rombo."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="4dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_rombo"
+                android:contentDescription="Rombo"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Rectángulo: Si los cuatro ángulos de la figura son rectos, entonces formamos un rectángulo."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="4dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_rectangulo"
+                android:contentDescription="Rectángulo"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Cuadrado: Cuando se cumplan los dos puntos anteriores obtenemos un cuadrado, que tiene todos los lados iguales y los cuatro ángulos rectos."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_cuadrado"
+                android:contentDescription="Cuadrado"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Figuras geométricas regulares de más de 4 lados"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Podemos seguir añadiendo todas las rectas que queramos obteniendo diferentes figuras geométricas de diferentes lados. Son especialmente importantes los que tienen los lados iguales, a esos se les añade el apellido de regulares."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Pentágono regular: Tiene 5 lados iguales."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="4dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_pentagono"
+                android:contentDescription="Pentágono regular"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Hexágono regular: Tiene 6 lados iguales."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="4dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_hexagono"
+                android:contentDescription="Hexágono regular"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lo podemos encontrar…¡en los panales de abejas!"
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_panales"
+                android:contentDescription="Panales de abejas"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Cómo sabrán las abejas hacer formas geométricas tan perfectas?"
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Círculo"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_circulo"
+            android:contentDescription="Círculo"
             android:layout_gravity="center"
             android:scaleType="centerInside"
             android:layout_marginBottom="16dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="¿Se puede hacer una figura con dos líneas rectas?"
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El círculo es una figura geométrica que se realiza trazando una curva que está siempre a la misma distancia de un punto que llamamos centro. La línea que bordea al círculo se llama circunferencia."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/geo2"
-            android:contentDescription="Dos líneas rectas"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obtenemos un círculo cuando mantenemos la distancia a un punto. Por ejemplo, con un compás, fijamos un punto con el pincho y luego, manteniendo la abertura, trazamos el círculo."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Puedes encontrar un montón de círculos a tu alrededor, en las ruedas de tu coche o en una pelota de tenis."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Triángulo"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_triangulo"
+                android:contentDescription="Triángulo"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El triángulo es el polígono que resulta de unir 3 puntos con líneas rectas. Los puntos de intersección son los vértices y los segmentos son los lados."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En este caso, en el colegio de Smartick hemos encontrado un triángulo isósceles. Los triángulos isósceles tienen dos lados con igual longitud y otro con longitud diferente."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuadrado"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_cuadrado"
+            android:contentDescription="Cuadrado"
             android:layout_gravity="center"
             android:scaleType="centerInside"
             android:layout_marginBottom="16dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="¡Claro que se puede! Lo que pasa es que a esta figura no la llamamos figura geométrica. Para serlo, tiene que estar cerrada. En la que hemos hecho, ¡sí que se puede escapar!"
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/geo3"
-            android:contentDescription="Figura abierta"
-            android:layout_gravity="center"
-            android:scaleType="centerInside"
-            android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Si intentas mover las dos rectas, verás que de ninguna manera se puede cerrar."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <!-- Triángulos -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Figuras geométricas de 3 lados: triángulos"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Vamos a probar ahora con tres líneas rectas."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/geo4"
-            android:contentDescription="Triángulo"
-            android:layout_gravity="center"
-            android:scaleType="centerInside"
-            android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="¡Eso es! Ahora sí que se puede obtener una figura de la que no se pueda escapar la pelota."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_triangulo_2" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Triángulo"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="A cada una de las líneas rectas que hemos utilizado y que ahora forma parte de la figura, la llamamos lado de la figura. Así que esta figura tiene tres lados y la llamamos triángulo. Cuando decimos “triángulo”, podemos referirnos o bien a la forma que hacen las tres rectas, o bien al espacio que encierran."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_triangulos_reales" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Triángulos en el entorno"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="¿Te imaginas dónde podemos encontrar triángulos a nuestro alrededor? Yo he encontrado algunos en Smartick, ¡a ver si los reconoces!"
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <!-- Clasificación de triángulos -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Clasificación de los triángulos"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hay diferentes maneras de clasificar a los triángulos, según sus lados o sus ángulos."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Según sus ángulos:"
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Rectángulo: tiene un ángulo recto, es decir, mide 90º."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="4dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Acutángulo: tiene 3 ángulos agudos, es decir, miden menos de 90º."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="4dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Obtusángulo: tiene un ángulo obtuso, es decir, mide más de 90º."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Según sus lados:"
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Equilátero: los 3 lados miden lo mismo."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="4dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Isósceles: tiene 2 lados que miden igual y otro desigual."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="4dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Escaleno: todos los lados tienen diferente longitud."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <!-- Cuadriláteros -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Figuras geométricas de 4 lados: cuadriláteros"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Probemos ahora con cuatro líneas rectas."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_cuadrilatero" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Cuadriláteros"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="A estas figuras las llamamos cuadriláteros. Hay unos cuadriláteros muy especiales que tienen los lados paralelos dos a dos."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Además, los lados que son paralelos también son iguales. ¿Cómo podríamos hacer esto? Cogemos dos lados iguales y los ponemos paralelos."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_cuadrilatero_paralelo" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Cuadrilátero paralelo"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cuando las líneas son paralelas y regulares tenemos tres posibilidades."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Rombo: Si los cuatro lados son iguales obtenemos un rombo."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="4dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_rombo" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Rombo"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Rectángulo: Si los cuatro ángulos de la figura son rectos, entonces formamos un rectángulo."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="4dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_rectangulo" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Rectángulo"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Cuadrado: Cuando se cumplan los dos puntos anteriores obtenemos un cuadrado, que tiene todos los lados iguales y los cuatro ángulos rectos."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_cuadrado" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Cuadrado"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <!-- Figuras geométricas regulares de más de 4 lados -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Figuras geométricas regulares de más de 4 lados"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Podemos seguir añadiendo todas las rectas que queramos obteniendo diferentes figuras geométricas de diferentes lados. Son especialmente importantes los que tienen los lados iguales, a esos se les añade el apellido de regulares."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Pentágono regular: Tiene 5 lados iguales."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="4dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_pentagono" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Pentágono regular"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• Hexágono regular: Tiene 6 lados iguales."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="4dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_hexagono" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Hexágono regular"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Lo podemos encontrar…¡en los panales de abejas!"
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_panales" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Panales de abejas"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="¿Cómo sabrán las abejas hacer formas geométricas tan perfectas?"
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <!-- Círculo -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Círculo"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_circulo" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Círculo"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="El círculo es una figura geométrica que se realiza trazando una curva que está siempre a la misma distancia de un punto que llamamos centro. La línea que bordea al círculo se llama circunferencia."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Obtenemos un círculo cuando mantenemos la distancia a un punto. Por ejemplo, con un compás, fijamos un punto con el pincho y luego, manteniendo la abertura, trazamos el círculo."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Puedes encontrar un montón de círculos a tu alrededor, en las ruedas de tu coche o en una pelota de tenis."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <!-- Triángulo -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Triángulo"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_triangulo" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Triángulo"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="El triángulo es el polígono que resulta de unir 3 puntos con líneas rectas. Los puntos de intersección son los vértices y los segmentos son los lados."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="En este caso, en el colegio de Smartick hemos encontrado un triángulo isósceles. Los triángulos isósceles tienen dos lados con igual longitud y otro con longitud diferente."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <!-- Cuadrado -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cuadrado"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_cuadrado" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Cuadrado"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="El cuadrado es un polígono de cuatro lados, todos sus lados son iguales y sus cuatro ángulos son de 90 grados cada uno."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <!-- Rectángulo -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Rectángulo"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_rectangulo" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Rectángulo"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="El rectángulo es una figura formada por 4 rectas llamadas lados. Las características de los rectángulos son que sus lados opuestos son paralelos y sus 4 ángulos miden 90º."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <!-- Trapezoide -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Trapezoide"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_trapezoide" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Trapezoide"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="El trapezoide es un polígono de cuatro lados, que no tiene ninguno de sus lados paralelo a otro."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Los trapezoides pueden ser simétricos o asimétricos, dependiendo de sus características."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="En este caso, la cometa es un trapezoide simétrico. Son los trapezoides que tienen dos pares de lados iguales y uno de estos pares de lados es menor que el otro."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <!-- Octógono -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Octógono (u octágono)"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="8dp"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:src="@drawable/placeholder_octogono" <!-- Cambia por la imagen correspondiente -->
-        android:contentDescription="Octógono"
-        android:layout_gravity="center"
-        android:scaleType="centerInside"
-        android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="El octágono es un polígono de ocho lados. El octágono regular es un polígono que tiene ocho lados iguales y ocho ángulos iguales."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="La suma de los ángulos interiores de un octágono es siempre igual a 1080º."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="¡¡Hemos encontrado un montón de figuras geométricas!!"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
-            android:paddingBottom="16dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Seguro que encuentras muchísimas más en tu entorno."
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF"
-            android:paddingBottom="32dp"/>
-
-    </LinearLayout>
-</ScrollView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El cuadrado es un polígono de cuatro lados, todos sus lados son iguales y sus cuatro ángulos son de 90 grados cada uno."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rectángulo"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_rectangulo"
+                android:contentDescription="Rectángulo"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El rectángulo es una figura formada por 4 rectas llamadas lados. Las características de los rectángulos son que sus lados opuestos son paralelos y sus 4 ángulos miden 90º."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trapezoide"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_trapezoide"
+                android:contentDescription="Trapezoide"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El trapezoide es un polígono de cuatro lados, que no tiene ninguno de sus lados paralelo a otro."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los trapezoides pueden ser simétricos o asimétricos, dependiendo de sus características."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En este caso, la cometa es un trapezoide simétrico. Son los trapezoides que tienen dos pares de lados iguales y uno de estos pares de lados es menor que el otro."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Octógono (u octágono)"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_octogono"
+                android:contentDescription="Octógono"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El octágono es un polígono de ocho lados. El octágono regular es un polígono que tiene ocho lados iguales y ocho ángulos iguales."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La suma de los ángulos interiores de un octágono es siempre igual a 1080º."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡¡Hemos encontrado un montón de figuras geométricas!!"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seguro que encuentras muchísimas más en tu entorno."
+                android:textSize="16sp"
+                android:textColor="#B3FFFFFF"
+                android:paddingBottom="32dp"/>
+
+        </LinearLayout>
+            -->
+    </ScrollView>
+       
