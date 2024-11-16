@@ -27,7 +27,13 @@
         <activity android:name=".InstruccionesMateActivity" />
         <activity android:name=".InstruccionesGeoActivity" />
         <activity android:name=".IntroduccionMateActivity" />
-
+        <activity android:name=".GeometriaActivity" />
+        <activity android:name=".Geo" />
+        <activity android:name=".Suma" />
+        <activity android:name=".Resta" />
+        <activity android:name=".Multiplicacion" />
+        <activity android:name=".Division" />
+        <activity android:name=".Comparacion" />
 
 
 

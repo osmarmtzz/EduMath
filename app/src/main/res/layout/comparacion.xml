@@ -154,19 +154,36 @@
             android:textColor="#FFFFFF"
             android:paddingBottom="16dp"/>
 
-        <!-- Botón para volver al menú principal -->
-        <Button
-            android:id="@+id/btnVolverMenu"
-            android:layout_width="wrap_content"
+        <!-- Contenedor para los botones -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Volver al Menú Principal"
-            android:backgroundTint="#FF5722"
-            android:textColor="#FFFFFF"
-            android:padding="12dp"
-            android:layout_marginTop="16dp"
-            android:layout_gravity="center_horizontal"
-            android:elevation="4dp"
-            android:radius="10dp"/>
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="32dp">
+
+            <Button
+                android:id="@+id/buttonRegComp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="←"
+                android:backgroundTint="@color/primary_color"
+                android:fontFamily="@font/nunito_regular"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/buttonMenuComp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="Menú Principal"
+                android:backgroundTint="@color/primary_color"
+                android:fontFamily="@font/nunito_regular"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
