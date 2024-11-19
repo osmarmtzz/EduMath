@@ -34,6 +34,11 @@
         <activity android:name=".Multiplicacion" />
         <activity android:name=".Division" />
         <activity android:name=".Comparacion" />
+        <activity android:name=".Juego_Geo" />
+        <activity android:name=".Etapa1Activity" />
+        <activity android:name=".Etapa2Activity" />
+        <activity android:name=".Etapa3Activity" />
+        <activity android:name=".ScoresGeo" />
 
 
 

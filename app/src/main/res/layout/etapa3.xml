@@ -3,43 +3,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     android:gravity="center"
-    android:background="@drawable/fondo"
-    android:padding="16dp">
+    android:background="@drawable/fondo">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Juego de Geometría"
-        android:textSize="24sp"
+        android:text="Cálculos Geométricos"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:layout_marginBottom="24dp" />
-
-    <Button
-        android:id="@+id/buttonStage1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Etapa 1: Identificar Figuras"
         android:layout_marginBottom="16dp" />
 
-    <Button
-        android:id="@+id/buttonStage2"
+    <TextView
+        android:id="@+id/textQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Etapa 2: Giroscopio"
+        android:text="¿Cuál es el área de un triángulo con base 10 y altura 5?"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
         android:layout_marginBottom="16dp" />
 
-    <Button
-        android:id="@+id/buttonStage3"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/editAnswer"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Etapa 3: Cálculos Geométricos"
-        android:layout_marginBottom="16dp" />
+        android:hint="Escribe tu respuesta"
+        android:padding="8dp" />
 
     <Button
-        android:id="@+id/buttonScores"
+        android:id="@+id/buttonSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ver Puntuaciones" />
+        android:text="Responder"
+        android:layout_marginTop="16dp" />
 </LinearLayout>

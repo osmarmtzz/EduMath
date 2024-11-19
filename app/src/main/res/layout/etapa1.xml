@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué figura es esta?"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/imageFigure"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/geo6"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe tu respuesta"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Responder"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

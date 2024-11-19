@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/fondo">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etapa 2: Controla la figura"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Instrucciones -->
+    <TextView
+        android:id="@+id/textInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usa el giroscopio para mover la figura y alcanzar la meta."
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/textTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Figura controlada por el sensor -->
+    <ImageView
+        android:id="@+id/imageFigure"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/geo12"
+        android:layout_centerInParent="true" />
+
+    <!-- Botón para finalizar -->
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar Etapa"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+</RelativeLayout>

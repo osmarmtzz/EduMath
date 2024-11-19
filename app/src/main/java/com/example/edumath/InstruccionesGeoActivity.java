@@ -23,5 +23,25 @@ public class InstruccionesGeoActivity extends AppCompatActivity {
                 finish();
             }
         });
+        Button buttonContinueGeo = findViewById(R.id.buttonContinueGeo);
+
+        buttonContinueGeo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(InstruccionesGeoActivity.this, Juego_Geo.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        Button buttonLessons = findViewById(R.id.buttonLessons);
+
+        buttonLessons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(InstruccionesGeoActivity.this, GeometriaActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }
