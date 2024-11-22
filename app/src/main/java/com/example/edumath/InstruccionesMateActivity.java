@@ -13,14 +13,25 @@ public class InstruccionesMateActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.intrucciones_mate);
 
+        // Botón para volver al menú principal
         Button btnAtras = findViewById(R.id.buttonMenuMath);
-
         btnAtras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(InstruccionesMateActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+
+        Button btnIrJuego = findViewById(R.id.buttonContinueMath);
+        btnIrJuego.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(InstruccionesMateActivity.this, JuegoMateActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Clear previous activities
+                startActivity(intent);
+                // Remove finish() to prevent immediately closing the game
             }
         });
     }

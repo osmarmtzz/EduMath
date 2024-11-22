@@ -5,5 +5,18 @@
     <color name="primary_color">#FF5722</color>
     <color name="my_primary_color">#FF6200EE</color>
     <color name="my_on_primary_color">#FFFFFFFF</color>
+    <color name="progresoVerde">#4CAF50</color>
+    <color name="grisOscuro">#BDBDBD</color>
+    <color name="buttonBackground">#4CAF50</color> <!-- Color verde -->
+    <color name="buttonBorder">#388E3C</color> <!-- Color verde oscuro para borde -->
+    <color name="shadow">#888888</color> <!-- Color de sombra gris -->
+
+    <!-- Colores de texto -->
+    <color name="primaryText">#FFFFFF</color> <!-- Blanco para los textos principales -->
+    <color name="secondaryText">#212121</color> <!-- Gris oscuro para textos secundarios -->
+
+    <!-- Colores de fondo -->
+    <color name="fondo">#F5F5F5</color> <!-- Fondo gris claro -->
+    <color name="fondoBotones">#E8F5E9</color> <!-- Fondo suave para los botones -->
 
 </resources>

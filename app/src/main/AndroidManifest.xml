@@ -26,7 +26,6 @@
         <activity android:name=".ConfiguracionesActivity" />
         <activity android:name=".InstruccionesMateActivity" />
         <activity android:name=".InstruccionesGeoActivity" />
-        <activity android:name=".IntroduccionMateActivity" />
         <activity android:name=".GeometriaActivity" />
         <activity android:name=".Geo" />
         <activity android:name=".Suma" />
@@ -39,6 +38,8 @@
         <activity android:name=".Etapa2Activity" />
         <activity android:name=".Etapa3Activity" />
         <activity android:name=".ScoresGeo" />
+        <activity android:name=".JuegoMateActivity" />
+
 
 
 

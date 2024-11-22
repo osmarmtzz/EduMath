@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/button_custom_large.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/buttonBackground" /> <!-- Fondo del botón -->
+    <corners android:radius="16dp" /> <!-- Bordes redondeados -->
+    <stroke android:width="2dp" android:color="@color/buttonBorder" /> <!-- Borde del botón -->
+    <padding android:left="16dp" android:right="16dp" android:top="12dp" android:bottom="12dp" />
+</shape>

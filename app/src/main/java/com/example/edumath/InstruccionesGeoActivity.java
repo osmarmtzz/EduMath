@@ -23,7 +23,7 @@ public class InstruccionesGeoActivity extends AppCompatActivity {
                 finish();
             }
         });
-        Button buttonContinueGeo = findViewById(R.id.buttonContinueGeo);
+        Button buttonContinueGeo = findViewById(R.id.buttonContinueMath);
 
         buttonContinueGeo.setOnClickListener(new View.OnClickListener() {
             @Override
