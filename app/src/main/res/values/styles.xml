@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo para los botones de respuesta -->
+    <style name="AnswerButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:background">@drawable/button_custom_large</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Estilo para los textos de información -->
+    <style name="InfoTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:layout_marginHorizontal">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/rounded_background</item>
+    </style>
+
+    <!-- Estilo para los textos de información del juego -->
+    <style name="GameInfoTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:layout_marginHorizontal">8dp</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Estilo personalizado para la barra de progreso -->
+    <style name="CustomProgressBar" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_bar_custom</item>
+        <item name="android:minHeight">12dp</item>
+        <item name="android:maxHeight">12dp</item>
+    </style>
+</resources>
