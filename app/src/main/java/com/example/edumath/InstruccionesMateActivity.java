@@ -34,5 +34,14 @@ public class InstruccionesMateActivity extends AppCompatActivity {
                 // Remove finish() to prevent immediately closing the game
             }
         });
+        Button buttonLecMate = findViewById(R.id.buttonLecMate);
+        btnIrJuego.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(InstruccionesMateActivity.this, Suma.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Clear previous activities
+                startActivity(intent);
+            }
+        });
     }
 }
